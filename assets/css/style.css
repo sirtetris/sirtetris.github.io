@@ -378,6 +378,10 @@ footer {
   bottom: 50px;
   -webkit-font-smoothing: subpixel-antialiased; }
 
+@media print, screen and (max-height: 720px) {
+  #photo_container {
+    max-height: 300px;
+    overflow: hidden; } }
 @media print, screen and (max-width: 960px) {
   div.wrapper {
     width: auto;
