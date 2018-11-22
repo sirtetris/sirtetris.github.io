@@ -437,7 +437,8 @@ footer {
 /* make links that are not a
    bullet point "headline" stand
    out less */
-li > * ~ a {
+li > * ~ a,
+li > * ~ * a {
   color: #406a89; }
 
 /*
