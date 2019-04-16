@@ -441,6 +441,10 @@ li > * ~ a,
 li > * ~ * a {
   color: #406a89; }
 
+/* sub lists need no margin */
+li > ul {
+  margin-bottom: 0; }
+
 /*
 a[href="#"] {
   cursor: default;
